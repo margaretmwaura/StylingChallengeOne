@@ -1,0 +1,17 @@
+#body {
+  font-family: 'proxima-nova', Proxima Nova; }
+  #body_top_nav_bar_navbar {
+    height: 80px; }
+    #body_top_nav_bar_navbar_links img {
+      height: 80px;
+      width: 80px;
+      float: left; }
+    #body_top_nav_bar_navbar_links ul {
+      float: right;
+      padding-top: 15px; }
+      #body_top_nav_bar_navbar_links ul li a {
+        color: purple; }
+      #body_top_nav_bar_navbar_links ul li a:hover {
+        border-bottom: 5px solid #000000; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,7 @@
 @import "variables";
 #body
 {
+  font-family: 'proxima-nova', Proxima Nova;
   &_top
   {
 
@@ -10,6 +11,32 @@
       &_navbar
       {
 
+        height: 80px;
+        &_links
+        {
+          img
+          {
+            height: 80px;
+            width: 80px;
+            float: left;
+          }
+          ul{
+            float: right;
+            padding-top: 15px;
+
+            li {
+              a{
+                color: purple;
+              }
+              a:hover
+              {
+                border-bottom: 5px solid #000000;
+              }
+
+            }
+          }
+
+        }
       }
     }
   }
