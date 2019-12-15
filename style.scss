@@ -1,35 +1,36 @@
 @import "variables";
 #body
 {
-  font-family: 'proxima-nova', Proxima Nova;
   &_top
   {
 
     &_nav_bar
     {
 
-      &_navbar
-      {
+      &_navbar {
 
-        height: 80px;
-        &_links
-        {
-          img
-          {
-            height: 80px;
-            width: 80px;
+        &_links {
+          img {
+            height: 75px;
+            width: 75px;
             float: left;
           }
-          ul{
-            float: right;
-            padding-top: 15px;
 
+          ul {
+            padding-top: 15px;
+            float: right;
             li {
-              a{
+              padding-left: 0px;
+              padding-right: 0px;
+              margin-left: 0px;
+              margin-right: 0px;
+
+              a {
                 color: purple;
+                font-size: 15px;
               }
-              a:hover
-              {
+
+              a:hover {
                 border-bottom: 5px solid #000000;
               }
 
@@ -37,6 +38,45 @@
           }
 
         }
+
+      }
+      }
+  }
+
+
+  &_banner
+  {
+    width: 100%;
+    height: 560px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &_content {
+
+      p {
+        color: white;
+        font-size: 40px;
+        margin-top: 150px;
+        line-height: 1.1em;
+      }
+
+      button
+      {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+      }
+
+      span{
+        margin-left: 25px;
       }
     }
   }
